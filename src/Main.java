@@ -5,5 +5,7 @@ public class Main {
         SalesManager manager = new SalesManager(sales);
 
         System.out.println("Макс: " + manager.max());
+        System.out.println("Мин: " + manager.min());
+        System.out.println("Обрезанное среднее: " + manager.trimmedAverage());
     }
 }
